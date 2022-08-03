@@ -72,6 +72,7 @@ h6 {
 }
 
 img {
+  max-width: 18rem;
   width: 100%;
   height: auto;
   display: block;
@@ -101,7 +102,8 @@ img {
 
 .sidebar {
   grid-area: sidebar;
-  padding: 20px;
+  padding: 1rem;
+  margin: 0rem 1rem 0 1rem;
 }
 .sidebar a {
   text-decoration: none;
@@ -153,11 +155,17 @@ img {
   .content {
     margin-top: -4rem;
   }
+  .content.box {
+    border: transparent;
+  }
   .sidebar {
     margin: -4rem 1rem 0 1rem;
   }
   .middlecontent {
     margin-top: -4rem;
+  }
+  .middlecontent.box {
+    border: transparent;
   }
   .section {
     border-bottom: 2px solid black;
