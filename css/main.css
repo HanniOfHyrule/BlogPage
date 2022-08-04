@@ -1,6 +1,7 @@
 @import url("navbar.css");
 @import url("header.css");
 @import url("footer.css");
+@import url("content.css");
 
 :root {
   /* Colors */
@@ -26,31 +27,16 @@ p {
     "sidebar"
     "footer";
   font-family: Playfair Display;
+  grid-gap: 0.1rem;
 }
 
-.content {
-  grid-area: content;
-  padding: 1rem;
-  margin: -5rem 1rem 0 1rem;
-}
-.colorsection {
-  display: flex;
-  flex-direction: row;
-  border-bottom: 2px solid var(--primary-color-dark);
-  text-decoration: none;
-  font-size: 2rem;
-}
 .date {
   font-size: x-small;
   font-weight: bold;
   letter-spacing: 0.3rem;
   font-style: italic;
 }
-.content a {
-  text-decoration: none;
-  margin-bottom: 1rem;
-  color: var(--primary-color-dark);
-}
+
 h3,
 h4,
 h5,
@@ -67,9 +53,6 @@ h6 {
 .readme:hover {
   color: var(--primary-color-light);
   cursor: pointer;
-}
-.content.box {
-  border-bottom: 2px solid black;
 }
 
 img {
@@ -96,7 +79,7 @@ img {
   border-bottom: 2px solid black;
 }
 
-.secondsection {
+.sidebarheader {
   text-decoration: none;
   font-size: 2rem;
 }
@@ -110,8 +93,9 @@ img {
   text-decoration: none;
   color: var(--primary-color-dark);
 }
-
-
+.sidebar p {
+  padding-top: 1rem;
+}
 
 @media (max-width: 320px) {
   .container {
@@ -146,7 +130,7 @@ img {
     border: transparent;
   }
   .sidebar {
-    margin: -4rem 1rem 0 1rem;
+    margin: 2rem 1rem 0 1rem;
   }
   .middlecontent {
     margin-top: -4rem;
@@ -157,7 +141,7 @@ img {
   .section {
     border-bottom: 2px solid black;
   }
-  .secondsection {
+  .sectionheader {
     display: flex;
     flex-direction: row;
     border-bottom: 2px solid var(--primary-color-dark);
@@ -185,7 +169,7 @@ img {
     border: transparent;
   }
   .sidebar {
-    margin: -5rem 1rem 0 1rem;
+    margin: -1rem 1rem 0 1rem;
   }
   .sidebar.box {
     margin-bottom: rem;
@@ -200,7 +184,7 @@ img {
   .section {
     border-bottom: 2px solid black;
   }
-  .secondsection {
+  .sectionheader {
     display: flex;
     flex-direction: row;
     border-bottom: 2px solid var(--primary-color-dark);
