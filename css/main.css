@@ -1,12 +1,13 @@
 @import url("navbar.css");
 @import url("header.css");
+@import url("footer.css");
 
 :root {
   /* Colors */
-  --primary-color-dark: #000213;
+  --primary-color-dark: #00031c;
   --primary-color-light: #f5b1a4;
   --primary-color-white: #efefef;
-  --second-color-blue: #82beb6;
+  --second-color-blue: #679892;
   --second-color-purple: #d4b1cd;
 }
 p {
@@ -110,21 +111,7 @@ img {
   color: var(--primary-color-dark);
 }
 
-.footer {
-  grid-area: footer;
-  border-top: 2px solid black;
-  text-align: center;
-  color: var(--primary-color-white);
-  background-color: var(--primary-color-dark);
-  margin: 0rem -0.5rem -0.5rem -0.5rem;
-}
-.footer.box {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
+
 
 @media (max-width: 320px) {
   .container {
@@ -177,6 +164,9 @@ img {
     text-decoration: none;
     font-size: 2rem;
   }
+  a.active {
+    font-size: 1.2rem;
+  }
 }
 
 /* Large Screen */
@@ -197,6 +187,9 @@ img {
   .sidebar {
     margin: -5rem 1rem 0 1rem;
   }
+  .sidebar.box {
+    margin-bottom: rem;
+  }
   .middlecontent.box {
     border: transparent;
   }
@@ -213,5 +206,8 @@ img {
     border-bottom: 2px solid var(--primary-color-dark);
     text-decoration: none;
     font-size: 2rem;
+  }
+  a.active {
+    font-size: 1.2rem;
   }
 }
