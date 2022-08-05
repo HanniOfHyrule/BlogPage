@@ -10,7 +10,7 @@
   grid-area: header;
   color: var(--primary-color-white);
   background-size: cover;
-  background-image: url("/assets/images/prometheus-unsplash.jpg");
+  background-image: url("/assets/images/prometeus.jpg");
 }
 
 .blogheadline {
