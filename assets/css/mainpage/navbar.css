@@ -15,13 +15,12 @@
   background-color: var(--primary-color-dark);
 }
 .navbar a:hover {
-  background-color: var(--second-color-blue);
-  color: var(--primary-color-dark);
+  color: var(--second-color-blue);
 }
 .navbar a {
   color: var(--second-color-purple);
   text-decoration: none;
-  font-size: small;
+  font-size: 1.2rem;
 }
 .active {
   text-transform: uppercase;
