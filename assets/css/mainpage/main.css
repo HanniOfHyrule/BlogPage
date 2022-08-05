@@ -157,6 +157,9 @@ p {
   a.active {
     font-size: 1.2rem;
   }
+  .blogheadline {
+    padding: 3rem;
+  }
 }
 
 /* Large Screen */
