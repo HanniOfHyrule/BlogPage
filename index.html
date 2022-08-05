@@ -3,11 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Blog about Art</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="/assets/images/pngwing.com.png"
-    />
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
     <meta name="description" content="Example" />
     <link rel="stylesheet" href="assets/css/mainpage/main.css" />
   </head>
@@ -15,9 +11,11 @@
   <body>
     <div class="container">
       <nav class="navbar box">
-        <a class="active" href="index.html">art Blog</a>
-        <a href="assets/blogposts/about-us.html">About us</a>
-        <a href="assets/blogposts/about-us.html#contact">Contact</a>
+        <a class="active" href="index.html" id="navheader">art Blog</a>
+        <a href="assets/blogposts/about-us.html" class="navanker">About us</a>
+        <a href="assets/blogposts/about-us.html#contact" class="navanker"
+          >Contact</a
+        >
       </nav>
       <header class="header box">
         <div class="blogheadline">
@@ -26,7 +24,10 @@
         </div>
       </header>
       <section class="content box">
-        <a class="colorsection" href="/assets/blogposts/blog-post-colors.html"
+        <a
+          class="sectionheader"
+          id="firstheader"
+          href="/assets/blogposts/blog-post-colors.html"
           >Colors</a
         >
         <div class="artikelblue">
@@ -93,21 +94,18 @@
     <footer class="socialnetwork">
       <div class="footer box">
         <a href=""
-          ><img
-            class="logo"
-            src="assets/images/twitter-pngrepo-com (1).png"
-            alt="Twitter Logo"
+          ><img class="logo" src="assets/images/twitter.png" alt="Twitter Logo"
         /></a>
         <a
           ><img
             class="logo"
-            src="assets/images/facebook-pngrepo-com (2).png"
+            src="assets/images/facebook.png"
             alt="Facebook Logo"
         /></a>
         <a
           ><img
             class="logo"
-            src="assets/images/linkedin-pngrepo-com (2).png"
+            src="assets/images/linkedin.png"
             alt="LinkedIn Logo"
         /></a>
       </div>
