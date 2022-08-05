@@ -154,7 +154,8 @@ p {
   .sectionheader {
     border-bottom: 2px solid black;
   }
-  a.active {
+  .active,
+  .navanker {
     font-size: 1.2rem;
   }
   .blogheadline {
@@ -196,10 +197,8 @@ p {
   .sectionheader {
     border-bottom: 2px solid black;
   }
-  a.active {
+  .active,
+  .navanker {
     font-size: 1.2rem;
-  }
-  .navbar a {
-    font-size: small;
   }
 }

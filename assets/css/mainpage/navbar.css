@@ -22,13 +22,11 @@
 .active:hover {
   color: var(--second-color-blue);
 }
-#navheader {
-  color: var(--second-color-purple);
-  font-size: 1.2rem;
-}
+
 .active {
   text-transform: uppercase;
   font-family: Playfair Display Bold;
   letter-spacing: 0.1rem;
   color: var(--second-color-purple);
+  font-size: 1.2rem;
 }
