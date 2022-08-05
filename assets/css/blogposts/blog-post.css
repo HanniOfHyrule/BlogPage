@@ -25,6 +25,11 @@
   grid-area: content;
   margin: 0.5rem;
 }
+.articleheader {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
 .quote {
   font-style: italic;
 }
@@ -44,6 +49,10 @@
   height: 60px;
   max-width: 100%;
   padding-top: 0rem;
+}
+.sidebarheader {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 .article {
   border-bottom: 1px solid var(--primary-color-dark);
