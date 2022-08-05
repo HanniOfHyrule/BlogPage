@@ -5,7 +5,7 @@
   justify-content: space-around;
   height: 3rem;
   margin: -0.5rem -0.5rem 0rem -0.5rem;
-  padding: 0.8rem;
+  padding: 1.3rem 1.3rem 0.7rem 1.3rem;
   z-index: 2;
 }
 
@@ -14,12 +14,15 @@
   letter-spacing: 0.5rem;
   background-color: var(--primary-color-dark);
 }
-.navbar a:hover {
+.navanker {
+  color: var(--second-color-purple);
+}
+.navanker,
+#navheader:hover {
   color: var(--second-color-blue);
 }
-.navbar a {
+#navheader {
   color: var(--second-color-purple);
-  text-decoration: none;
   font-size: 1.2rem;
 }
 .active {

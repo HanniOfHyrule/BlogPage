@@ -2,15 +2,15 @@
   width: auto;
   height: 80%;
   z-index: 0;
-  margin: -1rem -0.5rem 0 -0.5rem;
+  margin: -1.1rem -0.5rem 0 -0.5rem;
   box-sizing: border-box;
-  background-image: url("/assets/images/prometheus-beklagt-von-okenaiden-unsplash.jpg");
 }
 
 .header {
   grid-area: header;
   color: var(--primary-color-white);
   background-size: cover;
+  background-image: url("/assets/images/prometheus-unsplash.jpg");
 }
 
 .blogheadline {
@@ -23,7 +23,6 @@
 h1,
 h2 {
   font-weight: lighter;
-  line-height: 0.3rem;
   font-family: Cinzel;
   font-size: 2rem;
 }

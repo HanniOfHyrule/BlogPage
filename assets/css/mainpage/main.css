@@ -14,9 +14,12 @@
 p {
   font-family: Playfair Display;
   font-size: 1rem;
+  padding-top: 1rem;
 }
 a {
   color: var(--primary-color-dark);
+  text-decoration: none;
+  margin-bottom: 1rem;
 }
 
 .container {
@@ -39,6 +42,7 @@ a {
   font-weight: bold;
   letter-spacing: 0.3rem;
   font-style: italic;
+  text-decoration: underline;
 }
 
 h3,
@@ -49,8 +53,14 @@ h6 {
   font-weight: 400;
   margin: 0;
 }
+.sectionheader {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
 .readmore {
-  text-decoration: underline;
   border: transparent;
   font-weight: 800;
   letter-spacing: 0.1rem;
@@ -73,13 +83,11 @@ img {
   padding: 1rem;
   margin: 0rem 1rem 0 1rem;
 }
-.middlecontent a {
-  text-decoration: none;
-  color: var(--primary-color-dark);
+#firstheader {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--primary-color-dark);
 }
-.middlecontent p {
-  padding-top: 1rem;
-}
+
 .middlecontent.box {
   border-bottom: 2px solid black;
 }
@@ -94,11 +102,8 @@ img {
   padding: 1rem;
   margin: 0rem 1rem 0 1rem;
 }
-.sidebar a {
-  text-decoration: none;
-  color: var(--primary-color-dark);
-}
-.sidebar p {
+
+p {
   padding-top: 1rem;
 }
 
@@ -146,13 +151,6 @@ img {
   .section {
     border-bottom: 2px solid black;
   }
-  .sectionheader {
-    display: flex;
-    flex-direction: row;
-    border-bottom: 2px solid var(--primary-color-dark);
-    text-decoration: none;
-    font-size: 2rem;
-  }
   a.active {
     font-size: 1.2rem;
   }
@@ -189,13 +187,7 @@ img {
   .section {
     border-bottom: 2px solid black;
   }
-  .sectionheader {
-    display: flex;
-    flex-direction: row;
-    border-bottom: 2px solid var(--primary-color-dark);
-    text-decoration: none;
-    font-size: 2rem;
-  }
+
   a.active {
     font-size: 1.2rem;
   }

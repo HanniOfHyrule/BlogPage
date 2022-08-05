@@ -130,6 +130,9 @@
   .subscribe {
     margin: 2rem 2rem 2rem -2rem;
   }
+  .postsidebar {
+    border: none;
+  }
 }
 
 @media (min-width: 901px) {
