@@ -1,0 +1,21 @@
+.authorinfo {
+  background-color: rgb(222, 229, 236);
+  padding: 0.8rem;
+  margin: 2rem;
+  width: 80%;
+}
+.authorheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.8rem;
+  gap: 0.6rem;
+  font-weight: bold;
+}
+.authorimg {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  padding: 0.1rem;
+  align-items: center;
+}
