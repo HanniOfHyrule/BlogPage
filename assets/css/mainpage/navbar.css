@@ -13,12 +13,13 @@
   grid-area: navbar;
   letter-spacing: 0.5rem;
   background-color: var(--primary-color-dark);
+  color: var(--second-color-purple);
 }
 .navanker {
   color: var(--second-color-purple);
 }
 .navanker,
-#navheader:hover {
+.active:hover {
   color: var(--second-color-blue);
 }
 #navheader {
@@ -29,4 +30,5 @@
   text-transform: uppercase;
   font-family: Playfair Display Bold;
   letter-spacing: 0.1rem;
+  color: var(--second-color-purple);
 }
