@@ -20,12 +20,11 @@
   padding: 6rem 0 0 2rem;
   font-size: x-small;
 }
-h1,
-h2 {
+.headerheadline {
   font-weight: lighter;
   font-family: Cinzel;
   font-size: 2rem;
 }
-h2 {
+.headersecondline {
   font-size: 0.9rem;
 }
