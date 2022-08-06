@@ -42,7 +42,6 @@ a {
   font-weight: bold;
   letter-spacing: 0.3rem;
   font-style: italic;
-  text-decoration: underline;
 }
 
 h3,
@@ -59,6 +58,9 @@ h6 {
   text-decoration: none;
   font-size: 2rem;
 }
+.figcaption {
+  font-size: 0.4rem;
+}
 
 .readmore {
   border: transparent;
@@ -70,11 +72,18 @@ a:hover {
   cursor: pointer;
 }
 
-img {
-  max-width: 18rem;
-  width: 100%;
+.articleimg {
+  max-width: 40rem;
+  min-width: 8rem;
   height: auto;
-  display: block;
+  margin-left: -2rem;
+  padding-top: 2rem;
+}
+img {
+  max-width: 20rem;
+  width: 10rem;
+  height: auto;
+  margin-left: 0.1rem;
   padding-top: 2rem;
 }
 
@@ -160,6 +169,11 @@ p {
   }
   .blogheadline {
     padding: 3rem;
+  }
+  .footer.box {
+    width: 110%;
+    height: auto;
+    padding: 3.2rem;
   }
 }
 

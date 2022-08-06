@@ -10,6 +10,8 @@
 }
 
 .navbar {
+  width: 100%;
+  height: auto;
   grid-area: navbar;
   letter-spacing: 0.5rem;
   background-color: var(--primary-color-dark);
@@ -17,6 +19,7 @@
 }
 .navanker {
   color: var(--second-color-purple);
+  font-size: 0.6rem;
 }
 .navanker,
 .active:hover {
@@ -28,5 +31,5 @@
   font-family: Playfair Display Bold;
   letter-spacing: 0.1rem;
   color: var(--second-color-purple);
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }

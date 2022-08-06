@@ -4,7 +4,7 @@
 @import url("authorinfo.css");
 @import url("subscribe.css");
 
-.container {
+.containerpost {
   display: grid;
   grid-template-columns: 2fr;
   grid-template-rows: 5rem 1fr;
@@ -40,15 +40,15 @@
 }
 .recentpost {
   border-bottom: 2px solid var(--primary-color-dark);
-  font-weight: bold;
 }
 
 .articleimg {
   border-radius: 48%;
-  width: 60px;
-  height: 60px;
+  width: 2rem;
+  height: auto;
   max-width: 100%;
   padding-top: 0rem;
+  padding-left: 0.9rem;
 }
 .sidebarheader {
   font-size: 1.5rem;
@@ -92,9 +92,9 @@
   height: 1rem;
   padding-top: 0.5rem;
 }
-
+/* 
 @media (max-width: 320px) {
-  .container {
+  .containerpost {
     display: grid;
     grid-template-columns: 2fr;
     grid-template-rows: 5rem 1fr;
@@ -104,9 +104,10 @@
       "postsidebar"
       "footer";
   }
-}
+} */
+
 @media (min-width: 600px) and (max-width: 900px) {
-  .container {
+  .containerpost {
     display: grid;
     grid-template-columns: 40% 30%;
     grid-template-rows: 5rem 1fr;
@@ -146,7 +147,7 @@
 }
 
 @media (min-width: 901px) {
-  .container {
+  .containerpost {
     display: grid;
     grid-template-columns: 40% 30%;
     grid-template-rows: 5rem 1fr;
@@ -174,5 +175,12 @@
   }
   .subscribe {
     margin: 2rem -1rem;
+  }
+  .navbar {
+    width: 110vw;
+    height: auto;
+  }
+  .footer {
+    width: 100vw;
   }
 }
