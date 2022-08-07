@@ -120,8 +120,11 @@
       "footer footer footer";
   }
   .navbar.box {
-    width: 102vw;
+    width: 100%;
     height: auto;
+  }
+  .header.box {
+    width: 120vw;
   }
   .content {
     margin: 0;

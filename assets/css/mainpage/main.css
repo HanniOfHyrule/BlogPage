@@ -129,10 +129,15 @@ p {
       "middlecontent"
       "sidebar"
       "footer";
+    width: 100vw;
   }
 }
 /* Medium Screen */
 @media (min-width: 601px) and (max-width: 900px) {
+  html {
+    width: 100vw;
+    height: auto;
+  }
   .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -142,20 +147,21 @@ p {
       "header header header"
       "content middlecontent sidebar"
       "footer footer footer";
+    width: 100vw;
   }
   .navbar.box {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     height: 3rem;
-    margin: -0.5rem -0.5rem 0rem -0.5rem;
+    /* margin: -1rem 0rem 0rem -1rem; */
     padding: 1.3rem 1.3rem 0.7rem 1.3rem;
-    width: 100%;
+    width: 97%;
   }
-  .header.box {
-    width: 105.2%;
+  .background.img .header.box {
+    width: 100vw;
+    margin-right: -1rem;
   }
-
   .content {
     margin-top: -4rem;
   }
@@ -185,7 +191,7 @@ p {
     padding: 3rem;
   }
   .footer.box {
-    width: 142%;
+    width: 121%;
     padding: 3.2rem;
   }
 }
@@ -206,13 +212,19 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-
+    width: 102%;
     height: 3rem;
     margin: -0.5rem -0.5rem 0rem -0.5rem;
     padding: 1.3rem 1.3rem 0.7rem 1.3rem;
   }
   .content.box {
     border: transparent;
+  }
+  .background.img {
+    width: 100%;
+  }
+  .header.box {
+    width: 106.5%;
   }
   .sidebar {
     margin: -5rem 1rem 0 1rem;
@@ -238,7 +250,7 @@ p {
     font-size: 1.2rem;
   }
   .footer.box {
-    width: 115.5%;
+    width: 95%;
     height: auto;
     padding: 3.2rem;
   }

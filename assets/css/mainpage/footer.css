@@ -2,9 +2,7 @@
   grid-area: footer;
   color: var(--primary-color-white);
   background-color: var(--primary-color-dark);
-  margin: 0.5rem -2rem -0.5rem -0.5rem;
-  width: 125vw;
-  height: auto;
+  margin: 0.5rem -3rem -0.5rem -0.5rem;
 }
 
 .logo {
