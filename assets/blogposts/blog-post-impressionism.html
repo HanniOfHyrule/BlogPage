@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Blog about Art</title>
-    <meta name="description" content="Example" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/blogposts/blog-post.css" />
   </head>
   <body>
@@ -136,12 +136,24 @@
       <section class="subscribe">
         <form class="form">
           <h4>Sign up now!</h4>
-          <p>
+          <p class="subtext">
             For exclusive previews about my blog and don't miss my new posts.
           </p>
-          <input type="text" id="name" name="name" placeholder="Name" />
-          <input type="email" id="email" name="email" placeholder="Email" />
-          <button type="button">Submit</button>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            class="subtext"
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            class="subtext"
+          />
+          <button type="button" class="subtext">Submit</button>
         </form>
       </section>
       <div class="authorinfo">
@@ -151,14 +163,14 @@
             alt="picture of the author"
             class="authorimg"
           />
-          <p>Hanni Liebler</p>
+          <p class="subtext">Hanni Liebler</p>
         </div>
-        <p>
+        <p class="subtext">
           Hanni is a self-taught artist and works as a freelance artist in her
           own studio. This blog was created in the course of further training as
           a software developer.
         </p>
-        <p>Follow her on</p>
+        <p class="subtext">Follow her on</p>
         <div class="socialnetwork">
           <a href="https://twitter.com/Hannis_Atelier"
             ><img
